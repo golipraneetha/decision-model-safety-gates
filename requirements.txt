@@ -1,0 +1,6 @@
+# Core (decision model). Tested with torch 2.14, transformers 5.17 on Apple MPS.
+torch>=2.4
+transformers>=4.45
+numpy>=1.26
+# Guard and Judge gates run through a local Ollama server (https://ollama.com),
+# not pip: `ollama pull llama-guard3:8b` and `ollama pull llama3.1:latest`.
